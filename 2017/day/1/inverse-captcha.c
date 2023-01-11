@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int reverse_captcha(int *captcha, int size, int offset)
 {
