@@ -13,7 +13,7 @@
  *  size: the size of the array
  *
  *  returns: the difference between the largest numbers and smallest numbers
- *           by substracting the smallest number over the largest number.
+ *           by substracting the smallest number over the largest number
  *
  */
 int checksum(int *numbers, int size)
@@ -64,6 +64,12 @@ int divisible(int *numbers, int size)
     return (divisor);
 }
 
+/*
+ * Function: main
+ * --------------
+ *  loops over each line from input file "input.txt" to create an array of numbers
+ *  without any tokens to then be used by two different functions
+ */
 int main()
 {
     FILE *stream;
